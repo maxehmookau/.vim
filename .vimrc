@@ -17,10 +17,15 @@ Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'bling/vim-airline'
 
 Bundle 'tpope/vim-rails'
+Bundle 'kien/ctrlp.vim'
+Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-bundler'
 Bundle 'dandorman/vim-colors'
 
 syntax on
 set laststatus=2
+
+" key maps
+map <Leader>w :w
 
 filetype plugin indent on     " required!
